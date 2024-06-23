@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card page</title>
+    <style>
+        body {
+    color: white;
+    background-color: rgb(68, 68, 68);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: rgb(187, 178, 56);
+    text-decoration: none;
+
+}
+header img{
+
+    width: 150px;
+    height: 150px;
+    border:  5px solid rgb(199, 190, 61);
+    border-radius: 50%;
+}
+.center {
+    text-align: center;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+h1 {
+    text-align: center;
+    color: rgb(199, 190, 61);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+    text-align: center;
+}
+.recipiente {
+    padding: 0px 50px;
+}
+nav a:hover {
+    color: rgba(199, 190, 61);
+}
+    </style>
+</head>
+<body>
+    
+<nav>
+    <ul>
+        <li>
+            <a href="#">Sobre mim</a>
+        </li>
+        <li>
+            <a href="#">Projetos</a>
+        </li>
+        <li>
+            <a href="#">Contato</a>
+        </li>
+    </ul>
+</nav>
+<header>
+    <div class="center">
+       <!--Local onde esta a imagem de vcs-->
+        <img src="Fotoperfil.png" alt="Foto de perfil">
+
+    </div>
+
+</header>
+<h1><!--Nome de vocês-->Eduarda</h1>
+<h2><!--O que vocês fazem talvez-->  Desenvolvedor web Iniciante</h2>
+<main>
+    <section>
+        <h3> Me chamo Eduarda Estou iniciando
+            Minha carreira como desenvilvedora
+        </h3>
+    </section>
+
+</main>
+<div class="recipiente">
+    <footer>
+        <a href="https://github.com/Euadud">
+            <img src="github.svg" alt="github">
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/maria-eduarda-ferreira-693874242/">
+            <img src="linkedin.svg" alt="linkedin">
+            <p>Linkedin</p>
+        </a>
+        <a href="https://www.youtube.com/channel/UC8Vm9U1k6oW_K9MdzUXySpw">
+            <img src="youtube.svg" alt="youtube">
+            <p>Youtube</p>
+        </a>
+    </footer>
+</div>
+
+</body>
+</html>
